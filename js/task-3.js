@@ -6,6 +6,7 @@ input.addEventListener("input", () => {
     
     if(outputValue === ""){
         output.textContent = "Anonymous"
+    } else{
+        output.textContent = outputValue
     } 
-    output.textContent = outputValue
 })
